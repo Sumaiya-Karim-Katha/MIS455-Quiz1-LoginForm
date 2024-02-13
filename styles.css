@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&family=Montserrat:wght@100&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #2980b9;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box1,
+.box2 {
+  margin: 50px;
+}
+
+.form-design {
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.login-tag, .form-tag{
+    padding: 5px 50px 5px 50px;
+    
+}
+
+
+input {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #c7c7c7;
+  color: #c7c7c7;
+}
+
+.form-design input[type="submit"] {
+  border: none;
+  background-color: #2980b9;
+  border-radius: 20px;
+  padding: 13px;
+  color: white;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #2e91d3;
+}
+
+.box1 {
+    display: flex;
+  font-size: 5rem;
+  color: white;
+  font-weight:500;
+}
+
+.box0 {
+    border: 20px;
+    margin: 20px;
+    width: 10px;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: white;
+    color: white;
+    padding: 5px;
+}
+
+hr{
+    margin-bottom: 20px;
+    border-color: rgb(255, 255, 255); 
+}
